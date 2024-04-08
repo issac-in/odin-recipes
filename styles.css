@@ -1,3 +1,8 @@
 * {
-   font-family: Verdana, sans-serif; 
+   /* Typography */
+   font-family: Verdana, sans-serif;
+   
+   /* Color */
+   background-color: #121212;
+   color: #ffffff;
 }
