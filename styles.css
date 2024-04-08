@@ -6,3 +6,9 @@
    background-color: #121212;
    color: #ffffff;
 }
+
+.hero-banner {
+   /* Dimensions */
+   height: auto;
+   max-width: 100%;
+}
