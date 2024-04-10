@@ -43,6 +43,51 @@ footer {
    margin: 0 auto;
 }
 
+/* Featured Content Styling */
+.featured {
+   background-image: url("./assets/images/air-fryer-char-siu.jpg");
+   background-color: grey;
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: flex-end;
+   height: 512px;
+   width: 1024px;
+   margin: auto;
+}
+
+.featured-card {
+   display: flex;
+   flex-direction: column;
+   height: fit-content;
+   width: fit-content;
+   margin: 0 100px 100px 0;
+   padding: 16px;
+   background-color: #121212;
+   border-radius: 8px;
+   border: 2px solid grey;
+}
+
+.featured-card h2, .featured-card p, .featured-card small {
+   margin-bottom: 16px;
+}
+
+.featured-card a, .featured-card button {
+   border-radius: 24px;
+}
+
+.featured-card a {
+   display: flex;
+   height: 48px;
+   width: 156px;
+   text-decoration: none;
+}
+
+.featured-card button {
+   width: 100%;
+   font-size: 18px;
+   background-color: grey;
+}
+
 /* All Recipe Content Styling */
 .all-recipes {
    margin: 0 125px;
