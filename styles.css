@@ -1,4 +1,10 @@
 * {
+   /* Box Model */
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0;
+
    /* Typography */
    font-family: Verdana, sans-serif;
    
@@ -7,6 +13,52 @@
    color: #ffffff;
 }
 
+/* All Recipe Content Styling */
+.all-recipes {
+   margin: 0 125px;
+   padding: 20px;
+}
+
+#yoinked-recipes {
+   display: flex;
+   flex: wrap;
+   list-style-type: none;
+   margin-top: 20px;
+   gap: 28px;
+}
+
+#yoinked-recipes li {
+   height: fit-content;
+   width: fit-content;
+}
+
+#yoinked-recipes a {
+   text-decoration: none;
+}
+
+#yoinked-recipes figure {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   border-radius: 12px;
+   padding: 2px;
+   background-color: grey;
+}
+
+figure img {
+   object-fit: cover;
+   object-position: center;
+   border-radius: 12px 12px 0 0 ;
+}
+
+figcaption {
+   text-align: center;
+   background-color: grey;
+   padding: 8px 8px 6px;
+   border-radius: 0 0 12px 12px;
+}
+
+/* Recipe Content Styling */
 .hero-banner {
    /* Dimensions */
    height: auto;
