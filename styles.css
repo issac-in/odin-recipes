@@ -95,7 +95,7 @@ footer {
    padding: 20px;
 }
 
-#yoinked-recipes {
+#yoinked-recipes ul {
    display: flex;
    flex: wrap;
    list-style-type: none;
