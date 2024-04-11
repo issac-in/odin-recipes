@@ -155,6 +155,30 @@ figcaption {
    flex-direction: column;
 }
 
+main {
+   padding: 0 240px;
+}
+
+.recipe-h2 {
+   margin: 16px 0;
+}
+
+.recipe-h3 {
+   margin: 8px 0;
+}
+
+.large-margin {
+   margin-top: 32px;
+}
+
+.medium-margin {
+   margin-top: 16px;
+}
+
+.small-margin {
+   margin-top: 4px;
+}
+
 /* Images */
 .air-fryer-char-siu-bg-img {
    background-image: url("./assets/images/air-fryer-char-siu.jpg");
