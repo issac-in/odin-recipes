@@ -179,6 +179,20 @@ main {
    margin-top: 4px;
 }
 
+.content-card {
+   background-color: grey;
+   padding: 32px;
+   border-radius: 32px;
+}
+
+.content-card ul {
+   list-style-position: inside;
+}
+
+.content-card ol p {
+   margin-left: 21px;
+}
+
 /* Images */
 .air-fryer-char-siu-bg-img {
    background-image: url("./assets/images/air-fryer-char-siu.jpg");
