@@ -17,15 +17,19 @@ body {
    display: flex;
    flex-direction: column;
    background-color: #121212;
+   min-height: 100vh;
+}
+
+header, footer {
+   display: flex;
+   align-items: center;
+   padding: 18px 100px;
 }
 
 /* Header Styling */
 header {
-   display: flex;
    flex-direction: row;
    justify-content: space-between;
-   align-items: center;
-   padding: 18px 100px;
 }
 
 .logo-image {
@@ -41,7 +45,7 @@ header {
 
 /* Footer Styling */
 footer {
-   margin: 0 auto;
+   justify-content: center;
 }
 
 /* Featured Content Styling */
