@@ -4,18 +4,19 @@
    margin: 0;
    padding: 0;
    border: 0;
+   overflow-x: hidden;
 
    /* Typography */
    font-family: Verdana, sans-serif;
    
    /* Color */
-   background-color: #121212;
    color: #ffffff;
 }
 
 body {
    display: flex;
    flex-direction: column;
+   background-color: #121212;
 }
 
 /* Header Styling */
@@ -135,7 +136,37 @@ figcaption {
 
 /* Recipe Content Styling */
 .hero-banner {
-   /* Dimensions */
-   height: auto;
-   max-width: 100%;
+   height: 512px;
+   width: 100vw;
+   position: relative;
+   background-size: cover;
+}
+
+.overlay-hero {
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: rgba(0,0,0,0.65);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+/* Images */
+.air-fryer-char-siu-bg-img {
+   background-image: url("./assets/images/air-fryer-char-siu.jpg");
+   background-position: 50% 25%;
+}
+
+.butter-chicken-and-rice-bg-img {
+   background-image: url("./assets/images/butter-chicken-and-rice.jpg");
+   background-position: 50% 65%;
+}
+
+.steak-burrito-bowl-bg-img {
+   background-image: url("./assets/images/steak-burrito-bowl.jpg");
+   background-position: 50% 10%;
 }
