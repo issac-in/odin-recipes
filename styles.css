@@ -50,7 +50,6 @@ footer {
 
 /* Featured Content Styling */
 .featured {
-   background-image: url("./assets/images/air-fryer-char-siu.jpg");
    background-color: grey;
    display: flex;
    flex-direction: row-reverse;
@@ -120,8 +119,6 @@ footer {
 }
 
 figure img {
-   object-fit: cover;
-   object-position: center;
    border-radius: 12px 12px 0 0 ;
 }
 
@@ -205,16 +202,16 @@ main {
 
 /* Images */
 .air-fryer-char-siu-bg-img {
-   background-image: url("./assets/images/air-fryer-char-siu.jpg");
+   background-image: url("./assets/images/air-fryer-char-siu.webp");
    background-position: 50% 25%;
 }
 
 .butter-chicken-and-rice-bg-img {
-   background-image: url("./assets/images/butter-chicken-and-rice.jpg");
+   background-image: url("./assets/images/butter-chicken-and-rice.webp");
    background-position: 50% 65%;
 }
 
 .steak-burrito-bowl-bg-img {
-   background-image: url("./assets/images/steak-burrito-bowl.jpg");
+   background-image: url("./assets/images/steak-burrito-bowl.webp");
    background-position: 50% 10%;
 }
