@@ -200,6 +200,10 @@ main {
    margin-left: 21px;
 }
 
+.citation {
+   margin: 8px 0;
+}
+
 /* Images */
 .air-fryer-char-siu-bg-img {
    background-image: url("./assets/images/air-fryer-char-siu.webp");
